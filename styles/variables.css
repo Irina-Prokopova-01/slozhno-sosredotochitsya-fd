@@ -1,4 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --accent-color: #ff0070;
+    --text-color-light: #F1B2CE;
+    --bg-color: #000028;
+    --text-color-dark: #000028;
+}
+
+/* Файл light.css */
+:root {
+    /*--accent-color: #ff8dcb;*/
+}
