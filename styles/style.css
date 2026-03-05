@@ -130,15 +130,11 @@
 /*    color: var(--text-color-dark, #000028);*/
 /*    background-color: var(--accent-color, #FF0070);*/
 /*    font-size: 1.125rem;*/
-/*    line-height: 24.3px;*/
+/*    line-height: 23.4px;*/
 /*}*/
 
-/*.section__articles-subtitle-mini {*/
+/*.section__articles-subtitle-regular {*/
 /*    font-weight: 400;*/
-/*}*/
-
-/*.section__articles-subtitle-max {*/
-/*    font-weight: 700;*/
 /*}*/
 
 /*.section__articles-description {*/
@@ -169,9 +165,6 @@
 /*.section__articles-subtitle {*/
 /*    font-size: 1.125rem;*/
 /*    line-height: 23.4px;*/
-/*}*/
-
-/*.section__articles-subtitle-margin {*/
 /*    margin-block-end: 10px;*/
 /*    margin-block-start: 20px;*/
 /*}*/
