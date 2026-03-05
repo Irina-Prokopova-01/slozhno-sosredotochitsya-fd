@@ -1,0 +1,11 @@
+.header__footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    block-size: 100vh;
+}
+
+footer {
+    margin-block-start: 10px;
+    min-block-size: 648px;
+}

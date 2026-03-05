@@ -1,0 +1,33 @@
+.decorated-zone {
+    position: relative;
+}
+
+.decorated-zone::before {
+    border-inline-end: 1px solid var(--accent-color, #ff0070);
+    border-block-start: 1px solid var(--accent-color, #ff0070);
+    inset-inline-end: 0;
+    inset-block-start: 0;
+    content: "";
+    position: absolute;
+    inline-size: 25px;
+    block-size: 25px;
+}
+
+.decorated-zone::after {
+    border-inline-start: 1px solid var(--accent-color, #ff0070);
+    border-block-end: 1px solid var(--accent-color, #ff0070);
+    inset-inline-start: 0;
+    inset-block-end: 0;
+    content: "";
+    position: absolute;
+    inline-size: 25px;
+    block-size: 25px;
+}
+
+.decorate__text {
+    color: var(--text-color-h1, #DB00FF);
+    font-weight: bold;
+    line-height: 83%;
+    text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
+    font-size: var(--font-size-h1, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+}

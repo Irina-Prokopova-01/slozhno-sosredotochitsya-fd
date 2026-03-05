@@ -1,0 +1,78 @@
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: end;
+    block-size: 100vh;
+    min-block-size: 648px;
+    margin-block-end: 10px;
+}
+
+.header__decorative-rec::before {
+    position: absolute;
+    content: "REC";
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 25px;
+    inset-inline-end: 28px;
+    inset-block-start: 0;
+}
+
+.header__decorative-rec::after {
+    position: absolute;
+    content: "";
+    background-color: var(--accent-color, #FF0070);
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    filter: blur(1.3px);
+    inset-block-start: 8px;
+    inset-inline-end: 9px;
+}
+
+.header__theme-menu {
+    align-self: center;
+    justify-self: end;
+    grid-row: 1;
+    margin-block-end: 65px;
+    margin-block-start: 65px;
+}
+
+.header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.header__theme-menu-button {
+    border: none;
+    background-color: transparent;
+    padding: 1.5px 14px;
+}
+
+.header__theme-menu-button:hover {
+    border: 1px solid var(--border-botton-color-hover, rgba(255, 0, 112, 0.4));
+}
+
+.header__theme-menu-button:focus {
+    border-bottom: var(--accent-color, #FF0070);
+}
+
+.header__theme-menu-button_active {
+    border: 1px solid var(--accent-color, #FF0070);
+}
+
+.header__title {
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    margin-block-end: 55px;
+}
+
+.header__description {
+    grid-row: 3;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    color: var(--text-color-dark, #000028);
+}

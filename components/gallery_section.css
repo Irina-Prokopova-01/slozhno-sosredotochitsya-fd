@@ -1,0 +1,12 @@
+.section__gallery-list {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 8.86rem 22.19rem 14.8rem 22.19rem 14.8rem;
+}
+
+.section__gallery-img {
+    object-fit: cover;
+    object-position: center;
+    block-size: 100%;
+    inline-size: 100%;
+}
