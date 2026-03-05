@@ -11,7 +11,7 @@
     position: absolute;
     content: "REC";
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     line-height: 25px;
     inset-inline-end: 28px;
     inset-block-start: 0;
@@ -48,6 +48,12 @@
     border: none;
     background-color: transparent;
     padding: 1.5px 13px;
+    text-transform: lowercase;
+    font-size: var(--font-size, 1.125rem);
+}
+
+.header__theme-menu-button--active {
+    outline: 1px solid var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-button:hover {
@@ -56,10 +62,12 @@
 
 .header__theme-menu-button:focus {
     border-bottom: var(--accent-color, #FF0070);
+    outline: none;
 }
 
-.header__theme-menu-button_active {
-    border: 1px solid var(--accent-color, #FF0070);
+.header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--accent-color, #FF0070);
+    outline: none;
 }
 
 .header__title {
@@ -74,13 +82,13 @@
     font-weight: bold;
     line-height: 83%;
     text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
-    font-size: var(--font-size-h1, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+    font-size: var(--font-size-logo, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
 }
 
 .header__description {
     grid-row: 3;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     line-height: 23.4px;
     color: var(--text-color-dark, #000028);
 }

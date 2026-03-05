@@ -4,7 +4,7 @@
 
 .section__articles-description {
     color: var(--text-color-light, #F1B2CE);
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     font-weight: 400;
     line-height: 23.4px;
     letter-spacing: 0;
@@ -16,8 +16,24 @@
     text-decoration: none;
 }
 
+.section__article-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--text-color-light, #F1B2CE);
+}
+
+.section__article-link:focus {
+    outline: none;
+    border: 1px solid var(--text-color-light, #F1B2CE);
+}
+
+.section__article-link:focus-visible {
+    outline: none;
+    padding: 0 4px;
+    border: 1px solid var(--text-color-light, #F1B2CE);
+}
+
 .section__articles-title {
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     font-weight: 700;
     line-height: 23.4px;
 
@@ -28,7 +44,7 @@
 }
 
 .section__articles-subtitle {
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     line-height: 23.4px;
     margin-block-end: 10px;
     margin-block-start: 20px;

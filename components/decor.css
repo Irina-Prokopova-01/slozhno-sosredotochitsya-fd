@@ -27,6 +27,6 @@
 .title-decor{
     color: var(--text-color-dark, #000028);
     background-color: var(--accent-color, #FF0070);
-    font-size: 1.125rem;
+    font-size: var(--font-size, 1.125rem);
     line-height: 23.4px;
 }

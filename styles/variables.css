@@ -7,7 +7,7 @@
     --text-color-h1: #DB00FF;
     --bg-image-dark: url(../images/cover-image-dark.png);
     --font-size-logo: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --font-size: 1.25rem;
+    --font-size: 1.125rem;
 }
 
 /* Файл light.css */
