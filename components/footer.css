@@ -7,5 +7,6 @@
 
 footer {
     margin-block-start: 10px;
+    /*margin-inline-start: 10px;*/
     min-block-size: 648px;
 }

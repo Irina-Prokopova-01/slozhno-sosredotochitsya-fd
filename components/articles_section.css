@@ -1,3 +1,7 @@
+.section {
+    margin-inline: 10px;
+}
+
 .section__articles-subtitle-regular {
     font-weight: 400;
 }
