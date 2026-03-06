@@ -3,8 +3,8 @@
 }
 
 .decorated-zone::before {
-    border-inline-end: 1px solid var(--accent-color, #ff0070);
-    border-block-start: 1px solid var(--accent-color, #ff0070);
+    border-inline-end: 1px solid var(--border-color, #ff0070);
+    border-block-start: 1px solid var(--border-color, #ff0070);
     inset-inline-end: 0;
     inset-block-start: 0;
     content: "";
@@ -14,8 +14,8 @@
 }
 
 .decorated-zone::after {
-    border-inline-start: 1px solid var(--accent-color, #ff0070);
-    border-block-end: 1px solid var(--accent-color, #ff0070);
+    border-inline-start: 1px solid var(--border-color, #ff0070);
+    border-block-end: 1px solid var(--border-color, #ff0070);
     inset-inline-start: 0;
     inset-block-end: 0;
     content: "";

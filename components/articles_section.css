@@ -3,7 +3,7 @@
 }
 
 .section__articles-description {
-    color: var(--text-color-light, #F1B2CE);
+    color: var(--text-color-p, #F1B2CE);
     font-size: var(--font-size, 1.125rem);
     font-weight: 400;
     line-height: 23.4px;
@@ -12,31 +12,31 @@
 
 .section__article-link {
     text-shadow: 2px 2px 2px var(--accent-color, #FF0070);
-    color: var(--text-color-light, #F1B2CE);
+    color: var(--text-color-p, #F1B2CE);
     text-decoration: none;
 }
 
 .section__article-link:hover {
     text-decoration: underline;
-    text-decoration-color: var(--text-color-light, #F1B2CE);
+    text-decoration-color: var(--text-color-p, #F1B2CE);
 }
 
 .section__article-link:focus {
     outline: none;
-    border: 1px solid var(--text-color-light, #F1B2CE);
+    border: 1px solid var(--text-color-p, #F1B2CE);
 }
 
 .section__article-link:focus-visible {
     outline: none;
     padding: 0 4px;
-    border: 1px solid var(--text-color-light, #F1B2CE);
+    border: 1px solid var(--text-color-p, #F1B2CE);
 }
 
 .section__articles-title {
     font-size: var(--font-size, 1.125rem);
     font-weight: 700;
     line-height: 23.4px;
-
+    color: var(--text-color-dark, #000028);
 }
 
 .section__articles-title-margin {

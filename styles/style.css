@@ -9,6 +9,6 @@
     font-family: "IBM Plex mono", sans-serif;
     display: grid;
     gap: 40px;
-    background-image: var(--bg-image-dark);
+    background-image: var(--bg-image);
 
 }

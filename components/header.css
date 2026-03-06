@@ -9,6 +9,7 @@
 
 .header__decorative-rec::before {
     position: absolute;
+    visibility: var(--header-decor-visibility, visible);
     content: "REC";
     font-weight: 400;
     font-size: var(--font-size, 1.125rem);
@@ -19,6 +20,7 @@
 
 .header__decorative-rec::after {
     position: absolute;
+    visibility: var(--header-decor-visibility, visible);
     content: "";
     background-color: var(--accent-color, #FF0070);
     border-radius: 50%;
@@ -49,11 +51,13 @@
     background-color: transparent;
     padding: 1.5px 13px;
     text-transform: lowercase;
+    color: var(--menu-text-color, #FF0070);
     font-size: var(--font-size, 1.125rem);
 }
 
 .header__theme-menu-button--active {
-    outline: 1px solid var(--accent-color, #FF0070);
+    outline: 1px solid var(--border-color, #FF0070);
+    pointer-events: none
 }
 
 .header__theme-menu-button:hover {
@@ -61,12 +65,12 @@
 }
 
 .header__theme-menu-button:focus {
-    border-bottom: var(--accent-color, #FF0070);
+    border-bottom: var(--border-color, #FF0070);
     outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--accent-color, #FF0070);
+    border-bottom: 1px solid var(--border-color, #FF0070);
     outline: none;
 }
 
