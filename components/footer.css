@@ -6,7 +6,22 @@
 }
 
 footer {
-    margin-block-start: 10px;
+    margin-block: 10px;
+    margin-inline: 10px;
     /*margin-inline-start: 10px;*/
     min-block-size: 648px;
+}
+
+@media (width >=768px) {
+    footer {
+        margin-block-start: 20px;
+        /*margin-inline-start: 10px;*/
+        min-block-size: 984px;
+        margin-block-end: 20px;
+        margin-inline-end: 20px;
+        margin-inline-start: 20px;
+    }
+    .header__footer {
+
+    }
 }

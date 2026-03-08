@@ -16,6 +16,6 @@
 
 @media (width >=768px) {
     .page {
-        padding: 20px;
+        /*gap: 0;*/
     }
 }

@@ -4,7 +4,7 @@
     justify-content: end;
     block-size: 100vh;
     min-block-size: 648px;
-    margin-block-end: 10px;
+    /*margin-block-end: 10px;*/
     margin-inline: 10px;
     margin-block: 10px;
 }
@@ -104,10 +104,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        min-block-size: 1004px;
-        margin-block-end: 10px;
+        min-block-size: 984px;
+        margin-inline: 20px;
+        margin-block: 20px;
     }
     .header__theme-menu {
+        margin-block-end: 173px;
+        margin-block-start: 172px;
         grid-column: 2;
     }
     .header__title {
@@ -115,7 +118,7 @@
         grid-column: 1/3;
         justify-self: start;
         align-self: center;
-        margin-block-end: 55px;
+        margin-block-end: 162px;
         /*margin-left: -20px;*/
     }
     .header {
@@ -124,6 +127,8 @@
     .header__description {
         grid-row: 3;
         grid-column: 2;
+        padding-right: 5px;
+
     }
 
 }
