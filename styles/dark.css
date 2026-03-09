@@ -7,8 +7,10 @@
     --border-botton-color-hover: rgba(255, 0, 112, 0.4);
     --text-color-h1: #DB00FF;
     --bg-image: url(../images/cover-image-dark.png);
-    --font-size-logo: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --font-size-logo: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
     --font-size: 1.125rem;
     --menu-text-color: #ff0070;
     --header-decor-visibility: visibility;
+    --font-size-logo-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --font-size-logo-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

@@ -11,6 +11,8 @@
         --font-size: 1.125rem;
         --menu-text-color: #353430;
         --header-decor-visibility: hidden;
+        --font-size-logo-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+        --font-size-logo-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 /*.theme-light .header__decorative-rec::after {*/
@@ -31,10 +33,12 @@
         --border-botton-color-hover: rgba(50, 49, 45, 0.4);
         --text-color-h1: #FFC2E6;
         --bg-image: url(../images/cover-image-light.png);
-        --font-size-logo: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+        --font-size-logo: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
         --font-size: 1.125rem;
         --menu-text-color: #353430;
         --header-decor-visibility: hidden;
+        --font-size-logo-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+        --font-size-logo-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
     /*.header__decorative-rec::after {*/
     /*    display: none;*/

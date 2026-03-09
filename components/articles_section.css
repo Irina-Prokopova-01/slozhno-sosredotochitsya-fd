@@ -109,3 +109,34 @@
     }
 }
 
+@media (width >= 1024px) {
+    .section {
+        margin-inline: 20px;
+        margin-block-end: 20px;
+    }
+    .section__articles_why_hard_concentrate {
+        grid-template-columns: 316px 1fr 1fr;
+    }
+    .section__articles-list {
+        grid-column: 2/4;
+        /*margin-inline-start: 20px;*/
+    }
+    .section__articles_what_reduces_concentration {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .section__articles-title {
+        /*flex-grow: 1;*/
+        grid-column: 1;
+        grid-row: 1;
+        min-block-size: 2.94rem;
+    }
+    .section__articles_what {
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+    .section__articles-title-margin {
+
+    }
+
+}
