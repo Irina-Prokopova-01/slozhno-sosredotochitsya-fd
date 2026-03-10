@@ -118,49 +118,65 @@
         display: grid;
         gap: 40px
     }
+
     .section {
         margin-inline: 20px;
         margin-block-end: 20px;
     }
+
     .section__articles_why_hard_concentrate {
         grid-template-columns: 314px 1fr 1fr;
     }
+
     .section__articles-list {
         display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
         grid-column: 2/4;
         gap: 20px
     }
+
     .section__articles-what {
         gap: 20px;
     }
-    .section__articles-item-concentrait .section__articles-item-gajet{
+
+    .section__articles-item-concentrait .section__articles-item-gajet {
         margin-inline-end: 20px;
     }
+
     .section__articles_what_reduces_concentration {
         display: block;
     }
+
     .section__articles-title {
         /*flex-grow: 1;*/
         grid-column: 1;
         grid-row: 1;
         min-block-size: 2.94rem;
     }
+
     .section__articles_how_concentrate_better {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .section__articles-item-concentrait {
         grid-column: 1;
         grid-row: 2/3;
+        min-width: 41vh;
     }
+
     .section__articles-item-food {
         grid-column: 2;
         grid-row: 2/3;
+        min-width: 41vh;
     }
+
     .section__articles-item-gajet {
         grid-column: 3;
         grid-row: 2/3;
+        min-width: 41vh;
     }
+
     .section__articles-title-margin {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -168,4 +184,11 @@
         margin-block-start: 20px;
     }
 
+    .delete-gap_margin {
+        margin-block-start: 0;
+    }
+
+    /*.section__articles-subtitle {*/
+    /*    margin-block-start: 0;*/
+    /*}*/
 }
