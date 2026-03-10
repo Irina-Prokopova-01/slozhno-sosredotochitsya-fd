@@ -8,10 +8,16 @@
     position: relative;
     font-family: "IBM Plex mono", sans-serif;
     display: grid;
-    gap: 40px;
+    gap: 20px;
     background-image: var(--bg-image);
+    /*margin-block-start: 10px;*/
+    /*margin-block-end: 10px;*/
 
 }
+
+/*.main {*/
+/*    display: grid;*/
+/*}*/
 
 
 @media (width >=768px) {

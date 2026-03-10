@@ -56,11 +56,15 @@
 
 .section__articles-subtitle-margin-last {
     margin-block-start: 50px;
-    margin-block-end: 10px;
+    /*margin-block-end: 10px;*/
 }
 
 .section__articles-subtitle-text {
     margin-block-end: 0;
+}
+
+.section__articles-title-margin-first {
+    margin-block-start: 20px;
 }
 
 @media (width >=768px) {

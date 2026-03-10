@@ -11,6 +11,10 @@
     inline-size: 100%;
 }
 
+.section__gallery {
+    margin-block-end: 20px;
+}
+
 @media (width >= 768px) {
     .section__gallery-list {
         grid-template-rows: 12rem 15rem 20rem;
