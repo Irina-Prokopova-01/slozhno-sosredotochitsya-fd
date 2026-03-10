@@ -12,7 +12,7 @@ footer {
     min-block-size: 97vh;
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
     footer {
         margin-block-start: 20px;
         margin-inline: 0;
@@ -22,8 +22,15 @@ footer {
         margin-inline-end: 20px;
         /*margin-inline-start: 20px;*/
     }
+
     .header__footer {
 
+    }
+}
+
+@media (width >= 1024px) {
+    .header__title {
+        font-size: var(--font-size-logo-desk, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
     }
 }
 

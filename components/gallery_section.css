@@ -11,10 +11,6 @@
     inline-size: 100%;
 }
 
-.section__gallery {
-    margin-block-end: 20px;
-}
-
 @media (width >= 768px) {
     .section__gallery-list {
         grid-template-rows: 12rem 15rem 20rem;
@@ -38,5 +34,12 @@
     .section__gallery-item:nth-child(3) {
         grid-row: 2 / 4;
         grid-column: 1 / 2;
+    }
+}
+
+@media (width >= 1024px) {
+    .section__gallery-list {
+        grid-template-rows: 16rem 19.7rem 27rem;
+        grid-template-columns: repeat(3, auto);
     }
 }

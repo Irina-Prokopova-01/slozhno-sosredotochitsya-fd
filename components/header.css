@@ -174,4 +174,7 @@
     .header__description-p {
         margin-block-start: 10px;
     }
+    .decorate__text {
+        font-size: var(--font-size-logo-desk, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
+    }
 }

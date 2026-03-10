@@ -156,7 +156,8 @@
 
     .section__articles_how_concentrate_better {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        grid-template-columns: 314px 1fr 1fr;
     }
 
     .section__articles-item-concentrait {
@@ -178,14 +179,26 @@
     }
 
     .section__articles-title-margin {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column: 1;
+        /*display: grid;*/
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        /*grid-column: 1;*/
         margin-block-start: 20px;
+    }
+
+    .add_padding-margin {
+        padding-inline-end: 630px;
     }
 
     .delete-gap_margin {
         margin-block-start: 0;
+    }
+    .section__articles-subtitle-text {
+        grid-column: 2/4;
+        margin-block-start: 20px;
+    }
+    .section__articles-subtitle-margin-last {
+        margin-block-start: 20px;
+        margin-block-end: 20px;
     }
 
     /*.section__articles-subtitle {*/
