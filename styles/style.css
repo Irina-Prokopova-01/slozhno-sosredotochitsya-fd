@@ -4,24 +4,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--accent-color, #FF0070);
-    /*padding: 10px;*/
     position: relative;
     font-family: "IBM Plex mono", sans-serif;
     display: grid;
     gap: 20px;
+    /*block-size: 100vh;*/
     background-image: var(--bg-image);
-    /*margin-block-start: 10px;*/
-    /*margin-block-end: 10px;*/
-
 }
-
-/*.main {*/
-/*    display: grid;*/
-/*}*/
-
 
 @media (width >=768px) {
     .page {
-        /*gap: 0;*/
+        gap: 40px;
     }
 }
