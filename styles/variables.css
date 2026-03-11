@@ -13,13 +13,3 @@
     --menu-text-color: #FF0070;
     --header-decor-visibility: visibility;
 }
-
-/*@media (prefers-color-scheme: dark) {*/
-/*    .header__decorative-rec::after {*/
-/*        display: flex;*/
-/*    }*/
-
-/*    .header__decorative-rec::before {*/
-/*        display: block;*/
-/*    }*/
-/*}*/

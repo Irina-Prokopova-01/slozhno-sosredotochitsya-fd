@@ -7,7 +7,7 @@
     position: relative;
     font-family: "IBM Plex mono", sans-serif;
     display: grid;
-    gap: 20px;
+    gap: 40px;
     /*block-size: 100vh;*/
     background-image: var(--bg-image);
 }
