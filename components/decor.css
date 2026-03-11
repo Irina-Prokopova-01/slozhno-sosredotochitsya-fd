@@ -27,8 +27,8 @@
     block-size: 25px;
 }
 
-.title-decor{
-    color: var(--text-color-dark, #000028);
+.title-decor {
+    color: var(--text-color-words, #000028);
     background-color: var(--accent-color, #FF0070);
     font-size: var(--font-size, 1.125rem);
     line-height: 23.4px;
