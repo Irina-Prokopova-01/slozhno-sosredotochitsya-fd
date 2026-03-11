@@ -13,15 +13,8 @@
         --header-decor-visibility: hidden;
         --font-size-logo-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
         --font-size-logo-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+        --text-color-words: #000028;
 }
-
-/*.theme-light .header__decorative-rec::after {*/
-/*    display: none;*/
-/*}*/
-
-/*.theme-light .header__decorative-rec::before {*/
-/*    display: none;*/
-/*}*/
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -39,12 +32,6 @@
         --header-decor-visibility: hidden;
         --font-size-logo-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
         --font-size-logo-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+        --text-color-words: #000028;
     }
-    /*.header__decorative-rec::after {*/
-    /*    display: none;*/
-    /*}*/
-
-    /*.header__decorative-rec::before {*/
-    /*    display: none;*/
-    /*}*/
 }

@@ -83,15 +83,13 @@
     }
     .section__articles_what_reduces_concentration {
         display: grid;
-        grid-template-columns: 236px 1fr;
+        grid-template-columns: 14.75rem 1fr;
     }
     .section__articles-title {
         grid-column: 1;
     }
     .section__articles-list {
         grid-column: 2;
-    }
-    .section__articles-title {
     }
     .section__articles_what {
         grid-column: 1/3;

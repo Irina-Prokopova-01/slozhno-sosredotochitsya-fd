@@ -80,7 +80,6 @@
     align-self: center;
     justify-self: center;
     font-size: var(--font-size-logo-mob, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
-    /*margin-block-end: 55px;*/
 }
 
 .decorate__text {
@@ -99,7 +98,7 @@
     font-weight: 700;
     font-size: var(--font-size, 1.125rem);
     line-height: 23.4px;
-    color: var(--text-color-dark, #000028);
+    color: var(--text-color-words, #000028);
 }
 
 @media (width >=768px) {
