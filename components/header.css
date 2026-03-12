@@ -3,11 +3,8 @@
     grid-template-rows: 1fr min-content 1fr;
     justify-content: end;
     block-size: 100vh;
-    /*block-size: 100%;*/
     min-block-size: 668px;
-    /*margin-block-end: 10px;*/
     margin-inline: 10px;
-    /*margin-block-start: 10px;*/
 }
 
 .header__decorative-rec::before {

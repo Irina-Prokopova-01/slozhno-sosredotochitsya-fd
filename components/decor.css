@@ -1,7 +1,6 @@
 .decorated-zone {
     position: relative;
     min-block-size: 97vh;
-    /*block-size: 100vh;*/
 }
 
 .decorated-zone::before {
