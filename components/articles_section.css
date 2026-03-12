@@ -128,15 +128,11 @@
         grid-row: 1;
         min-block-size: 2.94rem;
     }
-
-
     .section__articles-item {
         grid-column: 1;
         grid-row: 2/3;
         min-width: 41vh;
     }
-
-
     .section__articles-item-concentration {
         grid-column: 1;
     }
@@ -146,11 +142,9 @@
     .section__articles-item-gadget {
         grid-column: 3;
     }
-
     .section__articles-title-margin {
         margin-block-end: 20px;
     }
-
     .delete-gap_margin {
         margin-block-start: 0;
     }

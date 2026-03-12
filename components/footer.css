@@ -11,10 +11,25 @@ footer {
     margin-inline: 10px;
 }
 
+.decorated-zone-footer::before {
+    border-inline-end: 1px solid var(--border-color, #ff0070);
+    border-block-start: 1px solid var(--border-color, #ff0070);
+    inset-inline-end: 0;
+    inset-block-start: 10px;
+    content: "";
+    position: absolute;
+    inline-size: 25px;
+    block-size: 25px;
+}
+
 @media (width >= 768px) {
     footer {
         margin-inline: 0;
         min-block-size: 984px;
+    }
+    .decorated-zone-footer::before {
+        inset-inline-end: 20px;
+        inset-block-start: 20px;
     }
 }
 
