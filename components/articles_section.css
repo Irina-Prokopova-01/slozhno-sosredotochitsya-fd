@@ -13,6 +13,9 @@
     line-height: 23.4px;
     letter-spacing: 0;
 }
+.section__articles-description-margin {
+    margin-block-end: 20px;
+}
 
 .section__article-link {
     text-shadow: 2px 2px 2px var(--accent-color, #FF0070);
@@ -21,7 +24,7 @@
 }
 
 .section__article-link:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid var(--text-color-underline, #F1B2CE);
     text-decoration-color: var(--text-color-p, #F1B2CE);
 }
 
@@ -54,7 +57,7 @@
     margin-block-start: 20px;
 }
 
-.section__articles-subtitle-margin-last {
+.section__articles-subtitle-margin {
     margin-block-start: 50px;
 }
 
@@ -62,7 +65,7 @@
     margin-block-end: 0;
 }
 
-.section__articles-title-margin-first {
+.section__articles-title-indent {
     margin-block-start: 0;
 }
 
@@ -71,19 +74,14 @@
         margin-inline: 20px;
         margin-block-end: 20px;
     }
-    .section__articles_why_hard_concentrate {
-        display: grid;
-        grid-template-columns: 14.75rem 1fr;
-        gap: 20px;
-    }
-    .section__articles_how_concentrate_better {
-        display: grid;
-        grid-template-columns: 1fr 29.5rem;
+    .section__articles_row {
         grid-template-rows: 0;
     }
-    .section__articles_what_reduces_concentration {
+
+    .section__content {
         display: grid;
         grid-template-columns: 14.75rem 1fr;
+        column-gap: 20px;
     }
     .section__articles-title {
         grid-column: 1;
@@ -100,12 +98,12 @@
         margin-block-start: 0;
     }
     .section__articles {
-        margin-block-end: 80px;
+        margin-block-end: 60px;
     }
     .section__articles-title-margin {
         margin-block-start: 0;
     }
-    .section__articles-title-margin-first {
+    .section__articles-title-indent {
         margin-block-start: 20px;
     }
 }
@@ -115,81 +113,54 @@
         display: grid;
         gap: 40px
     }
-
     .section {
         margin-inline: 20px;
         margin-block-end: 20px;
     }
-
-    .section__articles_why_hard_concentrate {
-        grid-template-columns: 314px 1fr 1fr;
+    .section__content {
+        grid-template-columns: 19.6rem 1fr;
     }
-
-    .section__articles-list {
-        display: grid;
-        grid-column: 2/4;
-        gap: 20px
-    }
-
-    .section__articles-what {
-        gap: 20px;
-    }
-
-    .section__articles-item-concentrait .section__articles-item-gajet {
-        margin-inline-end: 20px;
-    }
-
-    .section__articles_what_reduces_concentration {
-        display: block;
-    }
-
     .section__articles-title {
-        grid-column: 1;
+        grid-column: 1/2;
         grid-row: 1;
         min-block-size: 2.94rem;
     }
 
-    .section__articles_how_concentrate_better {
-        display: grid;
-        column-gap: 20px;
-        grid-template-columns: 314px 1fr 1fr;
-    }
 
-    .section__articles-item-concentrait {
+    .section__articles-item {
         grid-column: 1;
         grid-row: 2/3;
         min-width: 41vh;
     }
 
+
+    .section__articles-item-concentration {
+        grid-column: 1;
+    }
     .section__articles-item-food {
         grid-column: 2;
-        grid-row: 2/3;
-        min-width: 41vh;
     }
-
-    .section__articles-item-gajet {
+    .section__articles-item-gadget {
         grid-column: 3;
-        grid-row: 2/3;
-        min-width: 41vh;
     }
 
     .section__articles-title-margin {
-        margin-block-start: 20px;
-    }
-
-    .add_padding-margin {
-        padding-inline-end: 630px;
+        margin-block-end: 20px;
     }
 
     .delete-gap_margin {
         margin-block-start: 0;
     }
-    .section__articles-subtitle-text {
-        grid-column: 2/4;
-        margin-block-start: 20px;
-    }
-    .section__articles-subtitle-margin-last {
-        margin-block-start: 20px;
+    .section__articles-subtitle-margin {
+        margin-block-start: 0;
         margin-block-end: 20px;
+    }
+    .section__articles_what {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+    .section__articles-list {
+
     }
 }
