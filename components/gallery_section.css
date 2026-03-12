@@ -13,7 +13,7 @@
 
 @media (width >= 768px) {
     .section__gallery-list {
-        grid-template-rows: 12rem 15rem 20rem;
+        grid-template-rows: 12rem 14.4rem 19.88rem;
         grid-template-columns: repeat(3, auto);
         gap: 20px;
         grid-auto-flow: dense;

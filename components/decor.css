@@ -39,11 +39,17 @@
         inset-block-end: 20px;
         inset-inline-start: 20px;
     }
+
+    /*footer .decorated-zone::before {*/
+    /*    inset-inline-end: 20px;*/
+    /*}*/
+    .footer .decorated-zone::before {
+        inset-inline-end: 20px;
+    }
+
     .decorated-zone::before {
         inset-block-start: 20px;
     }
-
-
     .decorated-zone {
         position: relative;
         min-block-size: 96vh;

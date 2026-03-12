@@ -19,8 +19,7 @@ footer {
         /*margin-block-start: 20px;*/
         margin-inline: 0;
         min-block-size: 984px;
-        margin-block-end: 20px;
-        margin-inline-end: 20px;
+        /*margin-inline-end: 20px;*/
     }
 }
 

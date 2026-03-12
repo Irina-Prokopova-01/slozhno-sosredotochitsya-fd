@@ -18,7 +18,7 @@
     font-size: var(--font-size, 1.125rem);
     line-height: 25px;
     inset-inline-end: 28px;
-    inset-block-start: 0;
+    inset-block-start: 10px;
 }
 
 .header__decorative-rec::after {
@@ -30,7 +30,7 @@
     height: 11px;
     width: 11px;
     filter: blur(1.3px);
-    inset-block-start: 8px;
+    inset-block-start: 18px;
     inset-inline-end: 9px;
 }
 
@@ -38,6 +38,7 @@
     align-self: center;
     justify-self: end;
     grid-row: 1;
+    margin-block-start: 10px
 }
 
 .header__theme-menu-list {
@@ -56,7 +57,7 @@
     font-size: var(--font-size, 1.125rem);
 }
 
-.header__theme-menu-button--active {
+.header__theme-menu-button_active {
     outline: 1px solid var(--border-color, #FF0070);
     pointer-events: none
 }
@@ -91,7 +92,7 @@
 }
 
 .header__description {
-    /*margin-block-end: 12px;*/
+    margin-block-start: 12px;
     grid-row: 3;
     align-self: center;
     justify-self: end;
@@ -124,10 +125,20 @@
         grid-row: 3;
         grid-column: 2;
         margin-inline-start: 10px;
+        margin-block-start: 0;
     }
     .header__description-p {
         justify-self: center;
         align-self: auto;
+    }
+    .header__decorative-rec::before {
+        inset-inline-end: 28px;
+        inset-block-start: 20px;
+    }
+
+    .header__decorative-rec::after {
+        inset-block-start: 28px;
+        inset-inline-end: 9px;
     }
 
 }
