@@ -34,12 +34,6 @@
 }
 
 @media (width >=768px) {
-    /*.footer .decorated-zone::before {*/
-    /*    inset-inline-end: 20px;*/
-    /*}*/
-    /*.header .decorated-zone::before {*/
-    /*    inset-inline-end: 0;*/
-    /*}*/
     .decorated-zone::after {
         inset-block-end: 20px;
         inset-inline-start: 20px;

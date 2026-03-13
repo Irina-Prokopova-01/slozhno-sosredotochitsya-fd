@@ -5,7 +5,6 @@
 
 footer {
     block-size: 100vh;
-    /*block-size: 100%;*/
     min-block-size: 668px;
     display: grid;
     margin-inline: 10px;
