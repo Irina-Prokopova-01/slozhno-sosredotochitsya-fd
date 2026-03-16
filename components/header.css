@@ -4,7 +4,7 @@
     justify-content: end;
     block-size: 100vh;
     min-block-size: 668px;
-    margin-inline: 10px;
+    padding-inline-end: 20px;
 }
 
 .header__decorative-rec::before {
@@ -104,10 +104,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr auto 1fr;
-        margin-inline: 20px;
-        /*margin-block: 20px;*/
         margin-inline-start: 0;
-        min-block-size: 97vh;
     }
     .header__theme-menu {
         align-self: center;
@@ -142,7 +139,6 @@
 
 @media (width >= 1024px) {
     .header {
-        min-block-size: 95vh;
     }
     .header__title {
         font-size: var(--font-size-logo-desk, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
